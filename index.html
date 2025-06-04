@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resep</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<style>
+  @keyframes appear{
+   from {
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+    to{
+      opacity: 1;
+      clip-path: inset(0 0 0 0);
+    }
+  }
+
+ html {
+    scroll-behavior: smooth;
+  }
+
+  .wrapper{
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+
+  .kolom{
+    animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+
+  .cc{
+    animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+
+  #Resep{
+      animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+
+  #Tips{
+    animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+ 
+#Profil{
+  animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+</style>
+
+  <nav class="navbar">
+    <h2 class="logo">RumahResep</h2>
+    <ul class="nav-menu">
+      <li><a href="#Beranda">Beranda</a></li>
+      <li><a href="#Tentang">Tentang</a></li>
+      <li><a href="#Resep">Resep</a></li>
+      <li><a href="#Tips">Tips Memasak</a></li>
+      <li><a href="#Profil">Profil</a></li>
+    </ul>
+  </nav>
+<!---HOME-->
+   <div class="wrapper">
+    <section id="Beranda">
+      <img src="masak3.PNG">
+      <div class="kolom">
+        <h1>Selamat Datang Di <span class="resep">Rumah Resep</span></h1>
+         <p>Di <span class="resep">Rumah Resep </span>kamu bisa menemukan berbagai resep makanan dan minuman khas Indonesia, mulai dari Nasi Goreng, Ayam Bakar, hingga Es Teh yang menyegarkan.
+Dengan tampilan yang simpel dan menarik, kamu bisa langsung melihat daftar menu, harga, dan informasi kontak restoran kami.
+Kami hadir untuk memudahkan kamu memasak atau memesan makanan favorit langsung dari dapur tradisional Indonesia.
+Rasakan cita rasa asli, dari resep warisan budaya hingga sajian kekinian — semua dalam satu tempat!</p>
+<a href="#">Lihat Resep</a>
+      </div>
+    </section>
+   </div>
+
+<!---Tentang-->
+    <section id="Tentang">
+      <div class="kolom">
+       <h1>Tentang <span class="rese">Rumah Resep</span></h1>
+       <p>Kami adalah platform kuliner yang menyajikan beragam resep masakan khas Indonesia, lengkap dengan bahan, cara memasak, dan estimasi harga.
+       Tujuan kami adalah memperkenalkan kekayaan cita rasa nusantara kepada semua kalangan, baik untuk dimasak sendiri di rumah maupun dipesan langsung.
+       Dengan tampilan yang sederhana dan mudah diakses, kami berharap setiap pengunjung dapat menemukan inspirasi masakan dan menikmati pengalaman kuliner yang menyenangkan
+       Bergabunglah bersama kami dalam melestarikan rasa, budaya, dan kelezatan masakan Indonesia!</p>
+       </div>
+       <div class="cc">
+      <img src="masak2.PNG" alt="">
+      </div>
+      
+    </section>
+
+<!---Resep-->
+ <section id="Resep">
+  <div class="tengah">
+    <div class="kolo">
+      <h1>Resep <span class="hitam">Makanan</span></h1>
+    </div>
+    <div class="resep-makanan">
+      <div class="card">
+        <img src="NASGOR.jpg"alt="Nasi Goreng">
+        <a href="nasi.html"><h1>Nasi Goreng Jawa</h1></a>
+      </div>
+
+      <div class="card">
+        <img src="ayam.jpg" alt="Ayam">
+        <a href="ay.html"><h1>Ayam Bakar Taliwang</h1></a>
+      </div>
+
+      <div class="card">
+        <img src="soto.jpg" alt="Soto" height="150px">
+        <a href="soto.html"><h1>Soto Betawi</h1></a>
+      </div>
+
+      <div class="card">
+        <img src="rendang2.jpg" alt="Rendang" height="150px">
+        <a href="rendang.html"><h1>Rendang Padang</h1></a>
+      </div>
+
+ <div class="kolo">
+      <h1>Resep <span class="hitam">Minuman</span></h1>
+    </div>
+    <div class="resep-makanan">
+      <div class="card">
+        <img src="tehm.jpg" alt="Teh" height="150px">
+        <a href="teh.html"><h1>Es Teh Manis</h1></a>
+      </div>
+
+      <div class="card">
+        <img src="esc.jpg" alt="ES Dawet" height="150px">
+        <a href="daw.html"><h1>Es Dawet</h1></a>
+      </div>
+
+      <div class="card">
+        <img src="wedang.jpg" alt="Wedang" height="150px">
+        <a href="jahe.html"><h1>Wedang Jahe</h1></a>
+      </div>
+
+      <div class="card">
+        <img src="jeruk.jpg" alt="Es Jeruk" height="150px">
+        <a href="jeruk.html"><h1>Es Jeruk Peras</h1></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---Tips Memasak-->
+<section id="Tips">
+  <div class="kol">
+      <h1><span class="sigma">Tips</span> Memasak</h1>
+     <div class="tips-container">
+    <div class="tip-card">
+      <h3>1. Panaskan Wajan</h3>
+      <p>Pastikan wajan benar-benar panas sebelum memasak agar bahan tidak lengket.</p>
+    </div>
+    <div class="tip-card">
+      <h3>2. Gunakan Bahan Segar</h3>
+      <p>Rasa makanan lebih nikmat jika menggunakan bahan-bahan segar.</p>
+    </div>
+    <div class="tip-card">
+      <h3>3. Cicipi Masakan</h3>
+      <p>Sebelum disajikan, selalu cicipi untuk menyesuaikan rasa bumbu.</p>
+    </div>
+    </div>
+</section>
+
+<!---PROFIL-->
+<section id="Profil">
+  <div class="kolom">
+        <h1><span class="saya">JCG </span>PROFIL<span class="saya">seggbghrdhh</span></h1>
+        <div class="cot">
+        <div class="cont">
+        <div class="pictt">
+        <img src="WhatsApp Image 2025-06-03 at 12.31.03.jpeg" alt="">
+        <div class="deskripsi">
+       <p>Nama: Vinzent Gabriel Pratama Putra</p>
+       <p>Tanggal Tempat Lahir: Blitar, 11 Juni 2009</p>
+       <p>Alamat: Jogosari, Pandaan,Jawa Timur</p>
+</div>
+      </div>
+        </div>
+        </div>
+  </div>
+
+</section>
+<!---FOOTER-->
+<div class="foot">
+  <div class="icon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+</div>
+ <footer>
+    <p>&copy; RumahResep. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>
